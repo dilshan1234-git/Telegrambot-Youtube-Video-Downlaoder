@@ -1,7 +1,7 @@
 import telebot
 from pytube import YouTube
 import os
-bot = telebot.TeleBot('Telegram bot Token') # getting it from https://t.me/BotFather after creating a new bot
+bot = telebot.TeleBot('6898599695:AAE-rukB-OoPJgxOOOcKKuK_8gv55HiC4ww') # getting it from https://t.me/BotFather after creating a new bot
 
 def markup_(message):
     markup = telebot.types.InlineKeyboardMarkup(row_width=1)
